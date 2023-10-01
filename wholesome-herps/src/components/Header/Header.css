@@ -1,0 +1,49 @@
+.mainHeader {
+    background-image: url('./headerpic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+  
+.mainNav {
+    margin-top: 10px;
+}
+  
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align icons to the right */
+}
+  
+.navLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+.navLinks li {
+    margin-right: 20px;
+}
+  
+ .navLinks a {
+    color: rgb(194, 251, 187);
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.navLinks a:hover {
+    color: rgb(251, 151, 20);
+    transition: color 0.3s ease;
+}
+  
