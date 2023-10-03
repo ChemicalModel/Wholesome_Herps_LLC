@@ -1,0 +1,17 @@
+.homeHeader {
+    color: var(--WHOLESOMEBROWN);
+    background-color: var(--WHOLESOMEGREEN);
+    margin: 5% 25%;
+    padding: 5px 20px;
+}
+.sectionOrange {
+    background-color: var(--WHOLESOMEORANGE);
+    color: var(--WHOLESOMEBROWN);
+    margin-right: 5%;
+}
+
+.sectionPink {
+    background-color: var(--WHOLESOMEPINK);
+    color: var(--WHOLESOMEBROWN);
+    margin-left: 5%;
+}
