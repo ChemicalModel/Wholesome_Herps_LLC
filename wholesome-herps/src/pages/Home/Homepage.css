@@ -3,15 +3,31 @@
     background-color: var(--WHOLESOMEGREEN);
     margin: 5% 25%;
     padding: 5px 20px;
+    border: 3px solid var(--WHOLESOMEBROWN);
+    border-radius: 20px;
 }
 .sectionOrange {
     background-color: var(--WHOLESOMEORANGE);
     color: var(--WHOLESOMEBROWN);
-    margin-right: 5%;
+    margin-right: 45%;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .sectionPink {
     background-color: var(--WHOLESOMEPINK);
     color: var(--WHOLESOMEBROWN);
-    margin-left: 5%;
+    margin-left: 45%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.sectionOrange h2 {
+    background-color: var(--WHOLESOMEGREEN);
+    border-bottom: 3px solid var(--WHOLESOMEBROWN);
+    border-radius: 0 20px 0 0;
+}
+
+.sectionPink h2 {
+    background-color: var(--WHOLESOMEGREEN);
+    border-bottom: 3px solid var(--WHOLESOMEBROWN);
+    border-radius: 20px 0 0 0;
 }
